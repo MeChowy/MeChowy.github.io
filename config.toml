@@ -1,4 +1,137 @@
-baseurl = "https://MeChowy.github.io"
+
+archetypedir = "archetype"
+# hostname (and path) to the root, e.g. http = //spf13.com/
+baseURL = "https://MeChowy.github.io/"
+# include content marked as draft
+buildDrafts = false
+# include content with publishdate in the future
+buildFuture = false
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs = false
+canonifyURLs = false
+# config file (default is path/config.yaml|json|toml)
+config = "config.toml"
+contentdir = "content"
+dataDir = "data"
+defaultExtension = "html"
+defaultLayout = "post"
+# description = "My bla bla..."
+disableLiveReload = false
+# Do not build RSS files
+disableRSS = false
+# Do not build Sitemap file
+disableSitemap = false
+# Build robots.txt file
+enableRobotsTXT = false
+# Do not render 404 page
+disable404 = false
+# Do not inject generator meta tag on homepage
+disableHugoGeneratorInject = false
+# edit new content with this editor, if provided
+editor = "atom"
+# Enable Emoji emoticons support for page content.
+# See www.emoji-cheat-sheet.com
+enableEmoji = false
+footnoteAnchorPrefix = ""
+footnoteReturnLinkContents = ""
+# google analytics tracking id
+googleAnalytics = ""
+ignoreFiles = [ "\\.foo$", "\\.boo$" ]
 languageCode = "en-us"
-title = "rAndOm MuSInGs"
+layoutdir = "layouts"
+# Enable Logging
+log = false
+# Log File path (if set, logging enabled automatically)
+logFile = ""
+# "yaml", "toml", "json"
+metaDataFormat = "toml"
+newContentEditor = ""
+# Don't sync modification time of files
+noTimes = false
+paginate = 10
+paginatePath = "page"
+permalinks = ""
+# Pluralize titles in lists using inflect
+pluralizeListTitles = true
+# Preserve special characters in taxonomy names ("Gérard Depardieu" vs "Gerard Depardieu")
+preserveTaxonomyNames = false
+# filesystem path to write files to
+publishdir =  "public"
+# enables syntax guessing for code fences without specified language
+pygmentsCodeFencesGuessSyntax = false
+# color-codes for highlighting derived from this style
+pygmentsStyle = "monokai"
+# true =  use pygments-css or false =  color-codes directly
+pygmentsUseClasses = false
+# default sitemap configuration map
+sitemap = ""
+# filesystem path to read files relative from
+source = ""
+staticdir = "static"
+# display memory and timing of different steps of the program
+stepAnalysis = false
+# theme to use (located by default in /themes/THEMENAME/)
+themesdir = "themes"
 theme = "hyde"
+title = "R@ndom Musings"
+# if true, use /filename.html instead of /filename/
+uglyURLs = false
+# Do not make the url/path to lowercase
+disablePathToLower = false
+# if true, auto-detect Chinese/Japanese/Korean Languages in the content. (.Summary and .WordCount can work properly in CJKLanguage)
+hasCJKLanguage = false
+# verbose output
+verbose = false
+# verbose logging
+verboseLog = false
+# watch filesystem for changes and recreate as needed
+watch = true
+
+# taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+# params for site
+[params]
+  description = "My bla bla..."
+  author = "MeChowy"
+  GitHubUser= "MeChowy"
+  # copyright = "Contents &copy; {date} by <a href='mailto:me@chowy.me'>MeChowy</a> &middot; Powered by <a href='http://gohugo.io/' rel='nofollow'>Hugo</a> <br/> <a href='http://hyde.getpoole.com' target='_blank'>Hyde</a> theme by <a  href='https://twitter.com/mdo' target='_blank'>@mdo</a>"
+
+# rrmenu for site
+SectionPagesMenu = "main"
+[[menu.main]]
+    name = "Projects"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -150
+    identifier = "project"
+    url = "/project/"
+[[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -140
+    identifier = "post"
+    url = "/post/"
+[[menu.main]]
+    name = "Links"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -130
+    identifier = "link"
+    url = "/link/"
+# [[menu.main]]
+#     name = "Quotes"
+#     pre = "<i class='fa fa-heart'></i>"
+#     weight = -120
+#     identifier = "quote"
+#     url = "/quote/"
+[[menu.main]]
+    name = "Books"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -120
+    url = "/book/"
+[[menu.main]]
+    name = "Course Notes"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -110
+    identifier = "course-note"
+    url = "/course-note/"
