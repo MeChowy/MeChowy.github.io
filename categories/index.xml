@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R@ndom Musings</title>
-    <link>https://MeChowy.github.io/</link>
+    <link>https://MeChowy.github.io/categories/</link>
     <description>Recent content on R@ndom Musings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Aug 2016 17:00:56 +0800</lastBuildDate>
-    <atom:link href="https://MeChowy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://MeChowy.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Hard Thing About Hard Things</title>
@@ -115,94 +115,6 @@ Bill: &amp;ldquo;It&amp;rsquo;s about the FUCKING money.&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://doswa.com/2011/07/20/mathjax-in-markdown.html&#34; title=&#34;MathJax with Markdown&#34;&gt;MathJax with Markdown&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://docs.mathjax.org/en/latest/index.html&#34; title=&#34;MathJax Official Documentation&#34;&gt;MathJax Official Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lesson 1: Introduction to Research Methods</title>
-      <link>https://mechowy.github.io/course-note/descriptive-stats/lesson-1/</link>
-      <pubDate>Wed, 10 Aug 2016 13:45:51 +0800</pubDate>
-      
-      <guid>https://mechowy.github.io/course-note/descriptive-stats/lesson-1/</guid>
-      <description>
-
-&lt;h2 id=&#34;lesson-1-introduction-to-research-methods&#34;&gt;Lesson 1: Introduction to Research Methods&lt;/h2&gt;
-
-&lt;h3 id=&#34;some-definitions&#34;&gt;Some Definitions&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Constructs**&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Contruct&lt;/strong&gt;: Anything that is difficult to measure because it can be defined and measured in very many different ways.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Operational Definition&lt;/strong&gt;: Operational Definitions {of a construct} is a unit of measurement for a construct.  Once an Operational Definitions is defined {for a construct}, it is no longer a construct.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Extraneous Factors&lt;/strong&gt;: Also known as &amp;ldquo;Lurking Variables&amp;rdquo;, these factors that could impact the outcome of an experiment or test.  Extraneous factors should be held constant as much as possible to maximize accuracy of experiments/tests.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Samples and Populations&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Population Parameter&lt;/strong&gt;: denoted by &lt;code&gt;&lt;code&gt;\( \mu \)&lt;/code&gt;&lt;/code&gt; (μ pronounced mu) are values that describe the whole population.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sample statistics&lt;/strong&gt;: denoted by &lt;code&gt;&lt;code&gt;\( \overline{x} \)&lt;/code&gt;&lt;/code&gt; (pronounced as X-bar) are values that describe our sample.  Statistics are used to estimate/approximate the population parameter.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sampling Error&lt;/strong&gt;: The difference of values between true population parameter and sample statistics.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sample Size&lt;/strong&gt;: The size of the group that we choose to represent population.  The bigger the sample size, the smaller the sampling error generally.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Golden Arches Theory {of Conflict Prevention} by Thomas Friedman&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Correlations doesn&amp;rsquo;t mean causation: Just because two variables are relatable, it doesn&amp;rsquo;t mean once causes the other to occur.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Experiments vs Observational Studies&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;To show relationships =&amp;gt; Perform observational studies i.e. surveys.
-
-&lt;ul&gt;
-&lt;li&gt;(+) Easy way to get information of a population,&lt;/li&gt;
-&lt;li&gt;(+) Relatively inexpensive&lt;/li&gt;
-&lt;li&gt;(+) Can be conducted remotely&lt;/li&gt;
-&lt;li&gt;(+) Anyone could access and analyze survey results&lt;/li&gt;
-&lt;li&gt;(-) Untruthful responses&lt;/li&gt;
-&lt;li&gt;(-) Biased responses&lt;/li&gt;
-&lt;li&gt;(-) Respondents not understanding the questions (Response Bias)&lt;/li&gt;
-&lt;li&gt;(-) Respondents refuse to answer (Non-response Bias)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;To show causation =&amp;gt; Perform controlled experiments i.e.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Other Definitions&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Treatments&lt;/strong&gt;: The manner in which researchers handle subjects.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Observational Studies&lt;/strong&gt;: When an experimenter watches a group of subjects and does not introduce a treatment.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Independent Variables&lt;/strong&gt;: The variable that the experimenter chooses to manipulate, usually plotted along x-axis on a graph.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dependent Variables&lt;/strong&gt;: The variable that the experimenter chooses to measure, usually plotted along y-axis on a graph.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Treatment Group&lt;/strong&gt;: The group of a study that receives a varying levels of independent variable, used to measure the effect of a treatment.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Control Group&lt;/strong&gt;: The group of study that doesn&amp;rsquo;t receive treatment, used as a baseline when compared to treatment groups.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Placebo&lt;/strong&gt;: Something that is given to the control group so they think they are getting the treatment, when in reality it causes no effect on them.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Blinding&lt;/strong&gt;: A technique used to reduce bias, i.e. placebo is blinding.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Double Blinding&lt;/strong&gt;: A technique to ensure those who administer treatments and those receiving treatments do not know who is actually receiving which treatment.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Controlled Factors&lt;/strong&gt;: Factors&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Random Assignments&lt;/strong&gt;: A technique used to minimize impact of the other uncontrolled factors to the results of an experiment. Randomization works best with larger groups.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Within-Subject Design&lt;/strong&gt;: A technique to see how a factor influences the impact we are measuring, for the same study subject, keeping other controlled and uncontrolled factors constant.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;6.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lesson 2: Visualizing Data</title>
-      <link>https://mechowy.github.io/course-note/descriptive-stats/lesson-2/</link>
-      <pubDate>Wed, 10 Aug 2016 13:45:51 +0800</pubDate>
-      
-      <guid>https://mechowy.github.io/course-note/descriptive-stats/lesson-2/</guid>
-      <description>
-
-&lt;h2 id=&#34;lesson-2-visualizing-data&#34;&gt;Lesson 2: Visualizing Data&lt;/h2&gt;
 </description>
     </item>
     

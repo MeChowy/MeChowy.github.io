@@ -99,6 +99,30 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
+/* Sidebar Footer */
+.footer {
+  font-size: 16px;
+}
+
+.icon_row{
+  width: auto;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon_row img.social_icon{
+  width: 24px;
+  display: inline-block;
+  margin: 0px auto;
+  vertical-align: bottom;
+}
+
+.copyright{
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the

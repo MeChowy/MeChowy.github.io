@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on R@ndom Musings</title>
+    <link>https://MeChowy.github.io/tags/project/</link>
+    <description>Recent content in Project on R@ndom Musings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jul 2016 17:03:55 +0800</lastBuildDate>
+    <atom:link href="https://MeChowy.github.io/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Coming Soon</title>
+      <link>https://mechowy.github.io/project/</link>
+      <pubDate>Tue, 12 Jul 2016 17:03:55 +0800</pubDate>
+      
+      <guid>https://mechowy.github.io/project/</guid>
+      <description>&lt;p&gt;Coming Soon&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
